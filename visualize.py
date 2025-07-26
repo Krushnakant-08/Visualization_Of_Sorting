@@ -6,7 +6,7 @@ import os
 file_path = 'radix_steps.csv'
 if os.path.exists(file_path):
     os.remove(file_path)
-    open(file_path, 'w').close()  # Recreate an empty file
+    open(file_path, 'w').close() 
 
 subprocess.run(["./a.exe"])
 
