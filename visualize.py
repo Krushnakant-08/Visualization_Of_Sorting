@@ -35,7 +35,7 @@ for index, row in df.iterrows():
     plt.bar(range(len(data)), data)
     plt.title(title)
     if choice != '3':
-        plt.pause(1.5)
+        plt.pause(0.15)
     else:
-        plt.pause(.01)
+        plt.pause(1.5)
     plt.clf()
