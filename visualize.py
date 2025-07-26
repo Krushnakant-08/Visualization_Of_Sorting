@@ -15,7 +15,6 @@ print("2. Merge Sort")
 print("3. Radix Sort")
 
 choice = input("Enter option (1/2/3): ")
-
 if choice == '1':
     subprocess.run(["./insertion.exe"])
 elif choice == '2':
@@ -26,9 +25,7 @@ else:
     print("⚠️ Invalid choice. Please select a valid option.")
 
 
-
 df = pd.read_csv("steps.csv", header=None)
-
 for index, row in df.iterrows():
     title = row[0]
     data = row[1:-1]
