@@ -51,9 +51,6 @@ vector<int> arr = {
     53124, 34197, 59310, 78124, 32845, 93871, 40512, 51730, 20931, 67420,
     82359, 36948, 24186, 59841, 47031, 28417, 83591, 63420, 29375, 81246
 };
-    mergeSort(arr, 0, arr.size() - 1);
-    for (int num : arr) cout << num << " ";
-    cout << endl;
-  
+    mergeSort(arr, 0, arr.size() - 1);  
     return 0;
 }

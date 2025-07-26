@@ -36,11 +36,5 @@ int main() {
 92534, 80619, 29555, 30550, 60592, 88164, 11514, 64025, 76455, 17466,};
 
     insertionSort(data);
-
-    cout << "Sorted array: ";
-    for (int num : data)
-        cout << num << " ";
-    cout << endl;
-
     return 0;
 }
