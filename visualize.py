@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-file_path = 'radix_steps.csv'
+file_path = 'steps.csv'
 if os.path.exists(file_path):
     os.remove(file_path)
     open(file_path, 'w').close() 
@@ -11,7 +11,7 @@ if os.path.exists(file_path):
 subprocess.run(["./a.exe"])
 
 
-df = pd.read_csv("radix_steps.csv", header=None)
+df = pd.read_csv("steps.csv", header=None)
 
 for index, row in df.iterrows():
     title = row[0]

@@ -5,7 +5,7 @@
 using namespace std;
  int pass = 1;
 void logState(const vector<int>& arr, int pass) {
-    ofstream out("radix_steps.csv", ios::app);
+    ofstream out("steps.csv", ios::app);
     out << "Pass " << pass << ",";
     for (int val : arr) out << val << ",";
     out << "\n";
