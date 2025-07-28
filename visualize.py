@@ -22,7 +22,7 @@ elif choice == '2':
 elif choice == '3':
     subprocess.run(["./radix.exe"])
 else:
-    print("⚠️ Invalid choice. Please select a valid option.")
+    print("Invalid choice. Please select a valid option.")
 
 
 df = pd.read_csv("steps.csv", header=None)
