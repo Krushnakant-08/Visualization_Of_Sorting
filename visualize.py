@@ -13,6 +13,7 @@ print("💡 Choose a sorting algorithm to visualize:")
 print("1. Insertion Sort")
 print("2. Merge Sort")
 print("3. Radix Sort")
+print("4. Exit")
 
 choice = input("Enter option (1/2/3): ")
 if choice == '1':
@@ -21,6 +22,9 @@ elif choice == '2':
     subprocess.run(["./merge.exe"])
 elif choice == '3':
     subprocess.run(["./radix.exe"])
+elif choice == '4':
+    print("Exiting the program.")
+    exit()
 else:
     print("Invalid choice. Please select a valid option.")
 
